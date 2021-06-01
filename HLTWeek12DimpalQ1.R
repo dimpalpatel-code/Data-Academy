@@ -1,0 +1,12 @@
+a <- c(2,4,6,8,10)
+b <- c(3,6,9,12,15)
+c <- c(4,8,12,16,20)
+m <- cbind(a,b,c)
+print ("Content of the requested matrix")
+print (m)
+
+a <- c(2,4,6,8,10)
+b <- c(3,6,9,12,15)
+c <- c(4,8,12,16,20)
+m <- cbind(a,b,c)
+barplot (as.matrix(m), main="Sales", ylab="Amount", xlab="Type", col=rainbow(5))
